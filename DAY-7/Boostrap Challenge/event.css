@@ -1,0 +1,72 @@
+body {
+    background: rgb(5, 23, 77);
+    overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(76, 204, 230);
+    border-radius: 10px;
+}
+
+.event-title {
+    background-color: #212121;
+    height: auto;
+    color: #DDDDDD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+
+.event-img {
+    background-color: #212121;
+}
+
+.responsive {
+
+    height: auto;
+    max-height: 80vh;
+    width: 100%;
+}
+
+
+.event-desc {
+    background-color: #212121;
+    height: auto;
+    color: #DDDDDD;
+    font-size: 18px;
+
+}
+
+a.button {
+
+    display: block;
+    padding: 0.3em 1.2em;
+    margin: auto;
+    width: auto;
+    max-width: 150px;
+    border: 0.16em solid rgba(255, 255, 255, 0);
+    border-radius: 2em;
+    box-sizing: border-box;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    text-align: center;
+    transition: all 0.2s;
+}
+
+a.button:hover {
+    border-color: rgba(255, 255, 255, 1);
+}
